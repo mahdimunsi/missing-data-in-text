@@ -46,7 +46,7 @@ A comprehensive pipeline for restoring text from scanned PDFs using OCR and GPT-
 ```python
 API_KEY = "your-openai-api-key"
 ```
-2. Change your input pdf and output location in the same script (you can use the example document `Honkela95.pdf`):
+2. Change your input pdf and output location in the same script (you can use the example document `Honkela95.pdf` to get the output `Honkela95_refined.pdf`):
 ```python
 PDF_PATH = 'Honkela95.pdf'
 OUTPUT_PDF = 'Honkela95_refined.pdf'
