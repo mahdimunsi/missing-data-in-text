@@ -41,7 +41,7 @@ A comprehensive pipeline for restoring text from scanned PDFs using OCR and GPT-
 - Reconstructs a polished PDF output
 - Handles noisy, low-quality scans effectively
 
-**Usage**
+**Usage:**
 1. Set up your OpenAI API key in the `pdf_restoration_pipeline.py`:
 ```python
 API_KEY = "your-openai-api-key"
