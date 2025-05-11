@@ -1,9 +1,7 @@
-# filename: interactive_unmasker.py
 
 from transformers import pipeline
 
 def main():
-    # Load the fill-mask pipeline
     print("Loading model... (this may take a few seconds the first time)")
     unmasker = pipeline("fill-mask", model="bert-base-uncased")
 
@@ -23,7 +21,7 @@ def main():
             print("\nPredictions:")
             for r in result:
                 print(f"{r['sequence']} (score: {r['score']:.4f})")
-            print()  # Add space between predictions
+            print()
         except Exception as e:
             print(f"Error: {e}")
 
