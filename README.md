@@ -51,7 +51,7 @@ API_KEY = "your-openai-api-key"
 PDF_PATH = 'Honkela95.pdf'
 OUTPUT_PDF = 'Honkela95_refined.pdf'
 ```
-2. Save it and run the script:
+3. Save it and run the script:
 ```bash
 python pdf_restoration_pipeline.py
 ```
@@ -66,9 +66,9 @@ pip install torch transformers easyocr openai pdf2image pillow pymupdf fpdf
 ```
 
 ## Contributors
-1. Mahdi Munshi
-2. Maria Strzelecka
-3. Ruiting Li
+1. Mahdi Munshi (mahdi.munshi@helsinki.fi)
+2. Maria Strzelecka (maria.strzelecka@helsinki.fi)
+3. Ruiting Li (ruiting.li@helsinki.fi)
 
 ### Acknowledgement
 Special thanks to **Maria Valaste** for her guidance throughout the course and the project.
